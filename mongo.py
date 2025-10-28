@@ -3,6 +3,7 @@
 
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
+from config import MONGODB_URI
 import certifi  # 安全連線憑證
 
 # 建立 MongoDB 客戶端連線
