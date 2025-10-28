@@ -6,7 +6,7 @@ from linebot.v3.messaging import MessagingApi, ReplyMessageRequest, TextMessage
 from linebot.v3 import WebhookHandler
 from linebot.v3.messaging import ApiClient, Configuration, ShowLoadingAnimationRequest, FlexMessage,TextMessage, QuickReply, QuickReplyItem, DatetimePickerAction
 
-from config import CHANNEL_SECRET, CHANNEL_ACCESS_TOKEN
+
 from mongo import history_collection, summary_collection
 from resources import base_prompt, cycu_resources
 from llm import call_groq_llm
