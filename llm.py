@@ -6,8 +6,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # 模型路徑
-MODEL_PATH = "Llama-3.2-3B-Instruct"
-SUMMARY_MODEL_PATH = "Llama-3.2-3B-Instruct"  # 可使用同一模型做摘要
+MODEL_PATH = "meta-llama/Llama-3.2-3B-Instruct"
+SUMMARY_MODEL_PATH = "meta-llama/Llama-3.2-3B-Instruct"  # 可使用同一模型做摘要
 
 # 載入 tokenizer 和模型
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
