@@ -1,0 +1,17 @@
+pip install -r requirements.txt
+
+python test_chat.py
+python test_summary.py                          
+                                                #用這兩個檔案測試模型
+
+===========================================================================================================
+
+                                                #確認模型沒問題就能執行這兩個指令
+python app.py                                   
+ngrok http 5000            
+
+                                                #將生成的網址透過google瀏覽器開啟
+                                                #若成功顯示{"message":"LINE Bot is running."}
+                                                #代表成功
+                                                #再把網址傳給我，我去連結line bot
+

@@ -1,0 +1,10 @@
+flask
+line-bot-sdk
+requests
+pymongo
+certifi
+gunicorn
+gradio_client
+langchain
+transformers
+torch
